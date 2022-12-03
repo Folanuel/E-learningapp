@@ -179,12 +179,7 @@ const componentProps = {
                         </span>
                     </li>
                     </ul>
-                    <button
-                    type="button"
-                    className="inline-flex w-full justify-center rounded-lg bg-blue-600 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-900"
-                    >
-                    Choose plan
-                    </button>
+                    <PaystackButton {...componentProps} className="inline-flex w-full justify-center rounded-lg bg-blue-600 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-900" />
                 </Card>
                 <Card>
                     <h5 className="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">
@@ -325,13 +320,9 @@ const componentProps = {
                         </span>
                     </li>
                     </ul>
-                    {/* <button
-                    type="button"
-                    className="inline-flex w-full justify-center rounded-lg bg-blue-600 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-900"
-                    >
-                    Choose plan
-                    </button> */}
+                    
                     <PaystackButton {...componentProps} className="inline-flex w-full justify-center rounded-lg bg-blue-600 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-900" />
+                    
                 </Card>
                 <Card>
                     <h5 className="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">
@@ -472,12 +463,7 @@ const componentProps = {
                         </span>
                     </li>
                     </ul>
-                    <button
-                    type="button"
-                    className="inline-flex w-full justify-center rounded-lg bg-blue-600 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-900"
-                    >
-                    Choose plan
-                    </button>
+                    <PaystackButton {...componentProps} className="inline-flex w-full justify-center rounded-lg bg-blue-600 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-900" />
                 </Card>
             </div>
         </div>

@@ -30,7 +30,7 @@ export const Navbar2 = () => {
             <Navbar
                 fluid={true}
                 rounded={true}
-                className="drop-shadow-xl bg-cyan-400 text-white shadow-gray-800 fixed top-0 w-full rounded-l-none rounded-r-none"
+                className="drop-shadow-xl bg-white text-black shadow-gray-800 fixed top-0 w-full rounded-l-none rounded-r-none"
                 >
                 <Navbar.Brand href="#">
                     <img
