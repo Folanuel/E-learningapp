@@ -1,6 +1,5 @@
-import React, {useState} from 'react'
-import { NavLink, Link } from "react-router-dom";
-import {FaBars, FaTimes, FaGithub, FaLinkedin, FaInstagram} from 'react-icons/fa'
+import React from 'react'
+import { NavLink } from "react-router-dom";
 import { UserAuth } from "../context/AuthContext"
 import { Navbar, Dropdown, Avatar, Button } from "flowbite-react"
 
@@ -24,13 +23,14 @@ export const Navbar2 = () => {
     }
 
 
+
     
     return (
         <div>
             <Navbar
                 fluid={true}
                 rounded={true}
-                className="drop-shadow-xl bg-white text-black shadow-gray-800 fixed top-0 w-full rounded-l-none rounded-r-none"
+                className="drop-shadow-xl bg-white text-black shadow-gray-800 fixed top-0 w-full rounded-l-none rounded-r-none z-[100]"
                 >
                 <Navbar.Brand href="#">
                     <img
@@ -43,7 +43,7 @@ export const Navbar2 = () => {
                     </span>
                 </Navbar.Brand>
                 <div className="flex md:order-2">
-                    <Dropdown
+                    <Dropdown                    
                     arrowIcon={false}
                     inline={true}
                     label={<Avatar className={!user && "hidden"}
@@ -101,13 +101,7 @@ export const Navbar2 = () => {
                     style={({ isActive }) => isActive ? activeStyle : undefined}>
                     Pricing
                     </NavLink>
-                    </Navbar.Link>
-                    <Navbar.Link>
-                    <NavLink className="hover:text-blue-400" to="/profile"
-                    style={({ isActive }) => isActive ? activeStyle : undefined}>
-                    Profile
-                    </NavLink>
-                    </Navbar.Link>
+                    </Navbar.Link>                    
                     <Navbar.Link >
                     <NavLink className="hover:text-blue-400" to="/contact"
                     style={({ isActive }) => isActive ? activeStyle : undefined}>

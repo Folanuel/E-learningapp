@@ -32,7 +32,7 @@ const Pricing2 = () => {
 
 const componentProps = {
         ...config,
-        text: 'Choose Plan',
+        text: 'Subscribe',
         onSuccess: (reference) => handlePaystackSuccessAction(reference),
         onClose: handlePaystackCloseAction,
     };

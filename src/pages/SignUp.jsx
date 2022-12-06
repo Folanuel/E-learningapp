@@ -3,6 +3,7 @@ import { UserAuth } from "../context/AuthContext";
 import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { Label, Button, TextInput,Checkbox } from "flowbite-react"
+import Flower from "../assets/moroccan-flower.png"
 
 export const SignUp = () => {
     const [email, setEmail] = useState("")
@@ -10,6 +11,10 @@ export const SignUp = () => {
     const [error, setError] = useState("")
     const {googleSignIn, createUser, user} = UserAuth()
     const navigate = useNavigate()
+
+    const handleClick = () => {
+        navigate("/login")
+    }
 
 
     const handleSubmit = async (e) => {
@@ -40,9 +45,11 @@ export const SignUp = () => {
     }, [user])
 
     return (
-        <div className="w-full h-full flex flex-col space-y-12 justify-center items-center pt-16 pb-12">
+        <div className="w-full h-full flex flex-col space-y-12 justify-center items-center pt-16 pb-12" style={{ 
+        backgroundImage: `url(${Flower})` 
+    }}>
         <h1 className="text-2xl font-bold">Sign up to use E-learning</h1>
-        <p>Already have an account? Sign In</p>
+        <p>Already have an account? <span onClick={handleClick} className="hover:cursor-pointer hover:underline hover:underline-offset-4 text-blue-900 font-bold">Sign In</span></p>
             <form onSubmit={handleSubmit} className="flex flex-col gap-4 w-[30%]">
                 <div>
                     <div className="mb-2 block">
