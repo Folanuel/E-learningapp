@@ -12,7 +12,7 @@ const Testimonials = () => {
                 img="https://flowbite.com/docs/images/people/profile-picture-5.jpg"
                 rounded={true}
                 size="lg"
-                className="pb-12 mt-0 pt-0"
+                className="pb-12 mt-0 pt-12 md:pt-0"
                 >
                 <div className="space-y-1 font-medium dark:text-white">
                     <div>
@@ -30,7 +30,7 @@ const Testimonials = () => {
                 img="https://flowbite.com/docs/images/people/profile-picture-5.jpg"
                 rounded={true}
                 size="lg"
-                className="pb-12 mt-0 pt-0"
+                className="pb-12 mt-0 pt-12 md:pt-0"
                 >
                 <div className="space-y-1 font-medium dark:text-white">
                     <div>
@@ -48,7 +48,7 @@ const Testimonials = () => {
                 img="https://flowbite.com/docs/images/people/profile-picture-5.jpg"
                 rounded={true}
                 size="lg"
-                className="pb-12 mt-0 pt-0"
+                className="pb-12 mt-0 pt-12 md:pt-0"
                 >
                 <div className="space-y-1 font-medium dark:text-white">
                     <div>

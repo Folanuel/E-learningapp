@@ -1,7 +1,6 @@
 import React from 'react'
 import {Card} from 'flowbite-react'
-import {HiInformationCircle} from 'react-icons/hi'
-import { usePaystackPayment, PaystackButton } from 'react-paystack';
+import { PaystackButton } from 'react-paystack';
 
 
 

@@ -13,9 +13,10 @@ import Protected from "./components/Protected";
 import {Payments} from "./pages/Payments";
 import Contact from "./pages/Contact";
 
+
 export default function App() {
   return (
-    <AuthContextProvider>
+    <AuthContextProvider>    
     <Router>     
       <Navbar2 />      
       <Routes>
@@ -28,7 +29,7 @@ export default function App() {
         <Route path="/payments" element={<Payments />} />
       </Routes>
       <PageFooter />
-    </Router>
+    </Router>    
     </AuthContextProvider>
   );
 }
