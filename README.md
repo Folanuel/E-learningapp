@@ -1,4 +1,4 @@
-This is a lightweight E-learning platform built with React
+## This is a lightweight E-learning platform built with React
 
 ## features of the webapp
 -- Authentication with Email and Password
